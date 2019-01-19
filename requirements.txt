@@ -1,0 +1,8 @@
+Flask       >=0.12.2
+Flask-Cors  >=3.0.3
+nltk        >=3.2.4
+numpydoc  	>=0.7.0
+Owlready2 	>=0.10
+spacy  		>=2.0.12
+gensim 		>=3.6.0
+
