@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <link rel="shortcut icon" href="resources/images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css?1">
+
+    <!--bootstrap/jquery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<h1>What's wrong?</h1>
+<h3>I might be able to help</h3>
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+
+            <div id="frame">
+                <div class="content">
+                    <div class="messages" id="messages">
+                        <ul id="chatbox" class="chatbox">
+                            <li class="sent">
+                                <img src="resources/images/robot512x512.png" alt=""/>
+                                <p>Hi! How can I help you today?</p>
+                            </li>
+                        </ul>
+                        <div class="typing" style="display: none;">
+                            <p class="saving">Chatbot is typing <span>.</span><span>.</span><span>.</span></p>
+                        </div>
+                    </div>
+                    <div class="message-input">
+                        <div class="wrap" id="userInput">
+                            <input type="text" id="textInput" placeholder="Tell me about your rental issue..." />
+                            <button class="submit" id="buttonInput"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top:40px;color: #33465a;padding: 20px;text-align: justify;">
+                    <strong>Disclaimer:</strong> The advice provided by this question answering system is for technology demonstration purposes only. The advice does not, under any circumstances, qualify as official legal advice. You should contact your attorney to obtain official advice with respect to your particular situation. Use of, and access to, this web site or any of the contact links contained within the site do not create an attorney-client relationship between the author of this web site and the user or browser. The views expressed at, or through, this site are the opinions of the individual author of this system, and may not reflect the views of any individual atttorney or firm.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

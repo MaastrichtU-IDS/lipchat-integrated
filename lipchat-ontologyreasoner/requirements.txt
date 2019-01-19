@@ -1,0 +1,6 @@
+Flask               >=1.0.2
+Flask-Cors          >=3.0.6
+gensim              >=3.6.0
+spacy               >=2.0.12
+nltk                >=3.2.4
+Owlready2           >=0.10
